@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
         div2.innerHTML = texte;
         div2.addEventListener("click", () => {
             localStorage.setItem('etudiant', JSON.stringify(etudiant));
-            window.location.href = 'info.html';
+            window.location.href = './HTML/info.html';
         })
         div1.appendChild(div2);
         
